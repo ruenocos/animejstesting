@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wessel Oud | UX Designer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Work+Sans:wght@300;400;500;600;700&family=Baloo+2:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <header>
+        <div class="logo">
+            <a href="index.html">Wessel Oud</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="playground.html">Playground</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="intro-text"><span class="accent-font">Hi,</span> I'm Wessel Oud</h1>
+                <h2 class="typewriter-container">
+                    I create <span class="typewriter"></span>
+                </h2>
+                <p>UX Designer based in Amsterdam, focused on creating engaging digital experiences.</p>
+                <div class="cta-buttons">
+                    <a href="projects.html" class="btn primary">View Projects</a>
+                    <a href="contact.html" class="btn secondary">Get in Touch</a>
+                </div>
+                <div class="scroll-indicator">
+                    <span>Scroll Down</span>
+                    <div class="scroll-arrow">
+                        <div class="arrow-down"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="video-showcase">
+                <div class="video-item" data-category="animation">
+                    <video autoplay loop muted playsinline>
+                        <source src="videos/animation-sample.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <h3>Animations</h3>
+                    </div>
+                </div>
+                <div class="video-item" data-category="video">
+                    <video autoplay loop muted playsinline>
+                        <source src="videos/video-sample.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <h3>Videos</h3>
+                    </div>
+                </div>
+                <div class="video-item" data-category="website">
+                    <video autoplay loop muted playsinline>
+                        <source src="videos/website-sample.mp4" type="video/mp4">
+                    </video>
+                    <div class="video-overlay">
+                        <h3>Websites</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <div class="about-image">
+                <img src="img/profile.jpg" alt="Wessel Oud">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I'm a UX designer with a passion for creating engaging digital experiences. With a background in both design and development, I bring a unique perspective to every project.</p>
+                <p>My approach combines aesthetic sensibility with functional design, ensuring that every project not only looks great but also delivers an exceptional user experience.</p>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-category="ux">
+                    <div class="project-image">
+                        <img src="img/project1.jpg" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Interactive Dashboard</h3>
+                        <p>A responsive dashboard with real-time data visualization.</p>
+                        <div class="project-tags">
+                            <span>UX Design</span>
+                            <span>Web Development</span>
+                        </div>
+                        <a href="projects.html#project1" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="animation">
+                    <div class="project-image">
+                        <img src="img/project2.jpg" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Brand Animation</h3>
+                        <p>Motion graphics and animation for a tech startup.</p>
+                        <div class="project-tags">
+                            <span>Animation</span>
+                            <span>Branding</span>
+                        </div>
+                        <a href="projects.html#project2" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="img/project3.jpg" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Mobile App Redesign</h3>
+                        <p>Complete UX overhaul for a fitness application.</p>
+                        <div class="project-tags">
+                            <span>UX Design</span>
+                            <span>Mobile</span>
+                        </div>
+                        <a href="projects.html#project3" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="website">
+                    <div class="project-image">
+                        <img src="img/project4.jpg" alt="Project 4">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-commerce Website</h3>
+                        <p>Full redesign of an online shopping platform.</p>
+                        <div class="project-tags">
+                            <span>Web Design</span>
+                            <span>E-commerce</span>
+                        </div>
+                        <a href="projects.html#project4" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="projects.html" class="btn primary">View All Projects <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </section>
+
+        <!-- Playground Teaser -->
+        <section class="playground-teaser">
+            <div class="playground-content">
+                <h2><span class="accent-font">Playground</span></h2>
+                <p>Explore my personal projects, experiments, and creative endeavors.</p>
+                <a href="playground.html" class="btn secondary">Visit Playground <i class="fas fa-rocket"></i></a>
+            </div>
+            <div class="playground-preview">
+                <div class="preview-item">
+                    <img src="img/playground1.jpg" alt="Playground Item 1">
+                </div>
+                <div class="preview-item">
+                    <img src="img/playground2.jpg" alt="Playground Item 2">
+                </div>
+                <div class="preview-item">
+                    <img src="img/playground3.jpg" alt="Playground Item 3">
+                </div>
+                <div class="preview-item">
+                    <img src="img/playground4.jpg" alt="Playground Item 4">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-info">
+                <h3>Wessel Oud</h3>
+                <p>UX Designer</p>
+            </div>
+            <div class="footer-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="playground.html">Playground</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="fab fa-dribbble"></i></a>
+                <a href="#"><i class="fab fa-behance"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Wessel Oud. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+    
+    <!-- Custom Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/particles.js"></script>
+</body>
+</html>
